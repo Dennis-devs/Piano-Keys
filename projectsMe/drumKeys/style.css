@@ -1,0 +1,19 @@
+#divs {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 8%;
+}
+
+#classics {
+    display: flex;
+    justify-content: space-around;
+}
+
+#classics > button {
+    padding: 20px;
+    font-size: larger;
+    border-radius: 20px;
+    margin-top: 8%;
+    cursor: pointer;
+}
+

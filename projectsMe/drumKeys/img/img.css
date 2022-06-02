@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lato:wght@300&display=swap');
+
+div{
+    background-color: mistyrose;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+div > h1{
+    font-size: 50px;
+    font-family: 'Great Vibes', cursive;
+    font-weight: 400;
+}
+
+div > ul{
+    background-color: firebrick;
+    padding: 30px;
+}
+div li{
+    color: white;
+    font-size: 20px;
+}
