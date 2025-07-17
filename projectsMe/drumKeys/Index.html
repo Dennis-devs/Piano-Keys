@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content"=width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA compatible" content="IE=edge">
         <title>Piano Keys</title>
         <link rel="stylesheet" href="style.css">
@@ -11,7 +11,58 @@
     <body>
        <h1 class="head">WELCOME TO MUSICAL BUTTONS</h1> 
        <P>Press these keys on your keyboard to make sounds</P>
-       <div id='divs'> 
+
+       <section class="piano">
+      <section id="c-key" class="key" data-keys="81">
+        <section class="keynote"><kbd>Q</kbd></section>
+      </section>  
+      <section id="c-key" class="key" data-keys="65">
+        <section class="keynote"><kbd>A</kbd></section>
+      </section>
+      <section id="c-sharp-key" class="black-key" data-keys="87">
+        <section class="black-keynote"><kbd>W</kbd></section>
+      </section>
+      <section id="d-key" class="key" data-keys="83">
+        <section class="keynote"><kbd>S</kbd></section>
+      </section>
+      <section id="d-sharp-key" class="black-key" data-keys="69">
+        <section class="black-keynote"><kbd>E</kbd></section>
+      </section>
+      <section id="e-key" class="key" data-keys="68">
+        <section class="keynote"><kbd>D</kbd></section>
+      </section>
+      <section id="f-key" class="key" data-keys="70">
+        <section class="keynote"><kbd>F</kbd></section>
+      </section>
+      <section id="f-sharp-key" class="black-key" data-keys="84">
+        <section class="black-keynote"><kbd>T</kbd></section>
+      </section>
+      <section id="g-key" class="key" data-keys="71">
+        <section class="keynote"><kbd>G</kbd></section>
+      </section>
+      <section id="g-sharp-key" class="black-key" data-keys="89">
+        <section class="black-keynote"><kbd>Y</kbd></section>
+      </section>
+      <section id="a-key" class="key" data-keys="72">
+        <section class="keynote"><kbd>H</kbd></section>
+      </section>
+      <section id="a-sharp-key" class="black-key" data-keys="85">
+        <section class="black-keynote"><kbd>U</kbd></section>
+      </section>
+      <section id="b-key" class="key" data-keys="74">
+        <section class="keynote"><kbd>J</kbd></section>
+      </section>
+      <section id="high-c-key" class="key" data-keys="75">
+        <div class="keynote"><kbd>K</kbd></div>
+      </section>
+      <section id="c-sharp-key" class="black-key" data-keys="79">
+        <section class="black-keynote"><kbd>O</kbd></section>
+      </section>
+      <section id="d-key" class="key" data-keys="76">
+        <section class="keynote"><kbd>L</kbd></section>
+      </section>
+    </section>
+       <!-- <div id='divs'> 
            <div data-keys="65" class="keys"><kbd>A</kbd></div>
            <div data-keys="83" class="keys"><kbd>S</kbd></div>
            <div data-keys="68" class="keys"><kbd>D</kbd></div>
@@ -20,16 +71,24 @@
            <div data-keys="72" class="keys"><kbd>H</kbd></div>
            <div data-keys="74" class="keys"><kbd>J</kbd></div>
            <div data-keys="75" class="keys"><kbd>K</kbd></div>
-       </div>
+       </div> -->
 
+       <audio data-keys="81" src="Audio/B3.mp3"></audio>
        <audio data-keys="65" src="Audio/do1.wav"></audio>
+       <audio data-keys="87" src="Audio/Db4.mp3"></audio>
        <audio data-keys="83" src="Audio/re.wav"></audio>
+       <audio data-keys="69" src="Audio/d-4.mp3"></audio>
        <audio data-keys="68" src="Audio/mi.wav"></audio>
        <audio data-keys="70" src="Audio/fa.wav"></audio>
+       <audio data-keys="84" src="Audio/Gb4.mp3"></audio>
        <audio data-keys="71" src="Audio/so.wav"></audio>
+       <audio data-keys="89" src="Audio/Ab4.mp3"></audio>
        <audio data-keys="72" src="Audio/la.wav"></audio>
-       <audio data-keys="74" src="Audio/ti.wav"></audio>
+       <audio data-keys="85" src="Audio/Bb4.mp3"></audio>
+       <audio data-keys="74" src="Audio/B4.mp3"></audio>
        <audio data-keys="75" src="Audio/do2.wav"></audio>
+       <audio data-keys="79" src="Audio/c-5.mp3"></audio>
+       <audio data-keys="76" src="Audio/D5.mp3"></audio>
        <audio class="waltz"  src="Audio/Chopin-waltz-in-a-minor.mp3"></audio>
        <audio class="motzart" src="Audio/Piano-sonata-no-11.mp3"></audio>
 

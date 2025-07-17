@@ -1,7 +1,11 @@
-#divs {
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 8%;
+
+*{  
+    margin: 0; 
+    padding: 0;
+    box-sizing: content-box;
+}
+html{
+    background-color:rgb(83, 135, 28)
 }
 
 #classics {
@@ -16,4 +20,66 @@
     margin-top: 8%;
     cursor: pointer;
 }
+/* kbd {
+  border: 1px solid lime;
+  border-radius: 5px;
+  padding: 5px;
+} */
+.piano {
+    width: 980px;
+    height: 210px;
+    display: block;
+    margin: 0 auto;
+    background-color: #fd4d3f;
+    margin-top: 30px;
+}
+
+.key {
+    width: 90px;
+    height: 150px;
+    display: inline-block;
+    border: solid #141c3a 2px;
+    box-shadow: 2px 5px;
+    background-color: white;
+    color: #141c3a;
+}
+
+.black-key {
+    width: 80px;
+    height: 50px;
+    display: inline-block;
+    background-color: #141c3a;
+    color: white;
+    position: absolute;
+    margin-left: -40px;
+    padding: 0px;
+}
+
+.keynote {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-top: 100px;
+    color: #141c3a;
+    border: 1px solid lime;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+
+.black-keynote {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-top: 18px;
+    border: 1px solid lime;
+    border-radius: 5px;
+    padding: 2px 8px;
+    
+}
+
 
