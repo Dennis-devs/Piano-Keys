@@ -8,23 +8,36 @@ html{
     background-color:rgb(83, 135, 28)
 }
 
-#classics {
-    display: flex;
-    justify-content: space-around;
+p, h1{
+    text-align: center;
 }
 
-#classics > button {
-    padding: 20px;
-    font-size: larger;
-    border-radius: 20px;
-    margin-top: 8%;
-    cursor: pointer;
+#classics {
+    display: flex;
+    border: ;
+    margin-top: 3%;
+    align-content: space-between;
 }
-/* kbd {
-  border: 1px solid lime;
-  border-radius: 5px;
-  padding: 5px;
-} */
+
+#classics > div > button {
+    padding: 10px;
+    font-family: cursive;
+    font-size: large;
+    border-radius: 20px;
+    margin-top: 5px;
+    cursor: pointer;
+    max-width:fit-content ;
+    
+}
+
+#classics > div {
+    }
+
+.playlist{
+    display: flex;
+    flex-direction: column;
+   
+}
 .piano {
     width: 980px;
     height: 210px;

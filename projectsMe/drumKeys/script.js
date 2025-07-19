@@ -16,22 +16,15 @@ function stopSound(e){
     offSound.style.backgroundColor = 'key' ? '' : ''
 }
 
-const player = document.querySelector('.music');
-function classical(){
-    const audios = document.querySelector('.waltz');
-    audios.controls = true;
-    audios.load();
-    audios.play();
-}
-const player2 = document.querySelector('.music2');
-function classical2(){
-    const audios2 = document.querySelector('.motzart');
-    audios2.controls = true;
-    audios2.load();
-    audios2.play();
-}
+const player = document.querySelectorAll('.music');
+const classic = document.querySelectorAll('.classic');
+classic.forEach((item, index) => item.classList.add(`piece${index}`));
 
-player.addEventListener('click', classical);
-player2.addEventListener('click', classical2);
+player.forEach((piece, index) => piece.addEventListener('click', () => {
+    const playMusic = document.querySelector(`.piece${index}`);
+    playMusic.load();
+    playMusic.play();
+}));
+
 window.addEventListener('keydown', makeSound);
 window.addEventListener('keyup', stopSound);

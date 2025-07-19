@@ -1,21 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA compatible" content="IE=edge">
-        <title>Piano Keys</title>
-        <link rel="stylesheet" href="style.css">
-        <script src="script.js" defer></script>
-    </head>
-    <body>
-       <h1 class="head">WELCOME TO MUSICAL BUTTONS</h1> 
-       <P>Press these keys on your keyboard to make sounds</P>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA compatible" content="IE=edge" />
+    <title>Piano Keys</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <h1 class="head">WELCOME TO MUSICAL BUTTONS</h1>
+    <p class="intro">
+      Press these keys as indicated on your keyboard to play the Piano using
+      your laptop Keyboard
+    </p>
 
-       <section class="piano">
+    <section class="piano">
       <section id="c-key" class="key" data-keys="81">
         <section class="keynote"><kbd>Q</kbd></section>
-      </section>  
+      </section>
       <section id="c-key" class="key" data-keys="65">
         <section class="keynote"><kbd>A</kbd></section>
       </section>
@@ -62,41 +67,53 @@
         <section class="keynote"><kbd>L</kbd></section>
       </section>
     </section>
-       <!-- <div id='divs'> 
-           <div data-keys="65" class="keys"><kbd>A</kbd></div>
-           <div data-keys="83" class="keys"><kbd>S</kbd></div>
-           <div data-keys="68" class="keys"><kbd>D</kbd></div>
-           <div data-keys="70" class="keys"><kbd>F</kbd></div>
-           <div data-keys="71" class="keys"><kbd>G</kbd></div>
-           <div data-keys="72" class="keys"><kbd>H</kbd></div>
-           <div data-keys="74" class="keys"><kbd>J</kbd></div>
-           <div data-keys="75" class="keys"><kbd>K</kbd></div>
-       </div> -->
 
-       <audio data-keys="81" src="Audio/B3.mp3"></audio>
-       <audio data-keys="65" src="Audio/do1.wav"></audio>
-       <audio data-keys="87" src="Audio/Db4.mp3"></audio>
-       <audio data-keys="83" src="Audio/re.wav"></audio>
-       <audio data-keys="69" src="Audio/d-4.mp3"></audio>
-       <audio data-keys="68" src="Audio/mi.wav"></audio>
-       <audio data-keys="70" src="Audio/fa.wav"></audio>
-       <audio data-keys="84" src="Audio/Gb4.mp3"></audio>
-       <audio data-keys="71" src="Audio/so.wav"></audio>
-       <audio data-keys="89" src="Audio/Ab4.mp3"></audio>
-       <audio data-keys="72" src="Audio/la.wav"></audio>
-       <audio data-keys="85" src="Audio/Bb4.mp3"></audio>
-       <audio data-keys="74" src="Audio/B4.mp3"></audio>
-       <audio data-keys="75" src="Audio/do2.wav"></audio>
-       <audio data-keys="79" src="Audio/c-5.mp3"></audio>
-       <audio data-keys="76" src="Audio/D5.mp3"></audio>
-       <audio class="waltz"  src="Audio/Chopin-waltz-in-a-minor.mp3"></audio>
-       <audio class="motzart" src="Audio/Piano-sonata-no-11.mp3"></audio>
+    <audio data-keys="81" src="Audio/B3.mp3"></audio>
+    <audio data-keys="65" src="Audio/do1.wav"></audio>
+    <audio data-keys="87" src="Audio/Db4.mp3"></audio>
+    <audio data-keys="83" src="Audio/re.wav"></audio>
+    <audio data-keys="69" src="Audio/d-4.mp3"></audio>
+    <audio data-keys="68" src="Audio/mi.wav"></audio>
+    <audio data-keys="70" src="Audio/fa.wav"></audio>
+    <audio data-keys="84" src="Audio/Gb4.mp3"></audio>
+    <audio data-keys="71" src="Audio/so.wav"></audio>
+    <audio data-keys="89" src="Audio/Ab4.mp3"></audio>
+    <audio data-keys="72" src="Audio/la.wav"></audio>
+    <audio data-keys="85" src="Audio/Bb4.mp3"></audio>
+    <audio data-keys="74" src="Audio/B4.mp3"></audio>
+    <audio data-keys="75" src="Audio/do2.wav"></audio>
+    <audio data-keys="79" src="Audio/c-5.mp3"></audio>
+    <audio data-keys="76" src="Audio/D5.mp3"></audio>
+    <audio class="waltz classic" src="Audio/Chopin-waltz-in-a-minor.mp3"></audio>
+    <audio class="motzart classic" src="Audio/Piano-sonata-no-11.mp3"></audio>
+    <audio class="tchaikovsky classic" src="Audio/Tchaikovsky - Swan Lake_ Grand Waltz - London Philharmonic Orchestra conducted by Massimo Freccia.mp3"></audio>
+    <audio class="prokofiev classic" src="Audio/Prokofiev - Peter And The Wolf (Theme) - Philharmonic Symphony of London, Charles Gerhardt.mp3"></audio>
+    <audio class="pachelbel classic" src="Audio/Pachelbel - Canon in D - National Philharmonic Orchestra, Charles Gerhardt.mp3"></audio>
+    <audio class="satie classic" src="Audio/Satie [Arr. Debussy] - Gymnopédie No. 1 - London Promenade Orchestra, conducted by Eric Hammerstein.mp3"></audio>
+    <audio class="strauss classic" src="Audio/R. Strauss - Also sprach Zarathustra, Op. 30 (Theme from _2001_ A Space Odyssey_).mp3"></audio>
+    <audio class="danube classic" src="Audio/J. Strauss II - The Blue Danube (An der schönen blauen Donau) - National Philharmonic, Gerhardt.mp3"></audio>
+    <audio class="handel classic" src="Audio/Handel - Messiah_ Hallelujah Chorus - London Philharmonic Orchestra & Chorus, John Pritchard.mp3"></audio>
+    <audio class="grieg classic" src="Audio/Grieg - Peer Gynt, Suite No. 1_ Morning Mood - London Festival Orchestra, Sir Alexander Gibson.mp3"></audio>
+    <audio class="beethoven classic" src="Audio/Beethoven - Ode to Joy (Finale from Symphony No. 9 in D Minor, Op. 125, _Choral_).mp3"></audio>
+    <audio class="boccherini classic" src="Audio/Boccherini - String Quintet in E Major_ III. Minuet - National Philharmonic, Charles Gerhardt.mp3"></audio>
 
-       
-       <div id="classics">
-           <button class = "music">Chopin waltz in A minor</button>
-           <button class = "music2">Piano sonata no. 11</button>
-    
-       </div>
-    </body>
+    <div id="classics">
+      <div class="playlist">
+        <button class="music no1">Chopin waltz in A minor <i class="fa-solid fa-circle-play"></i></button>
+        <button class="music no2">Piano sonata no. 11 <i class="fa-solid fa-circle-play"></i></button>
+        <button class="music no3">Tchaikovsky - Swan Lake_ Grand Waltz <i class="fa-solid fa-circle-play"></i></button>
+        <button class="music no4">Prokofiev - Peter And The Wolf <i class="fa-solid fa-circle-play"></i></button>
+        <button class="music no5">Pachelbel - Canon in D <i class="fa-solid fa-circle-play"></i></button>
+        <button class="music no6">Satie [Arr. Debussy] - Gymnopédie No. 1 <i class="fa-solid fa-circle-play"></i></button>
+      </div>
+      <div class="playlist">
+        <button class="music no7">R. Strauss - Also sprach Zarathustra <i class="fa-solid fa-circle-play"></i></button>
+        <button class="music no8">J. Strauss II - The Blue Danube <i class="fa-solid fa-circle-play"></i></button>
+        <button class="music no9">Handel - Messiah_ Hallelujah Chorus <i class="fa-solid fa-circle-play"></i></button>
+        <button class="music no10">Grieg - Peer Gynt, Suite No. 1_ Morning Mood <i class="fa-solid fa-circle-play"></i></button>
+        <button class="music no11">Beethoven - Ode to Joy <i class="fa-solid fa-circle-play"></i></button>
+        <button class="music no12">Boccherini - String Quintet in E Major <i class="fa-solid fa-circle-play"></i></button>
+      </div>
+    </div>
+  </body>
 </html>
